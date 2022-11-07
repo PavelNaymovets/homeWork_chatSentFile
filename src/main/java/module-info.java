@@ -3,6 +3,6 @@ module com.example.homework_chatsentfile {
     requires javafx.fxml;
 
 
-    opens com.example.homework_chatsentfile to javafx.fxml;
-    exports com.example.homework_chatsentfile;
+    exports com.example.homework_chatsentfile.client;
+    opens com.example.homework_chatsentfile.client to javafx.fxml;
 }
