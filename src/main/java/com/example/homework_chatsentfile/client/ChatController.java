@@ -43,6 +43,7 @@ public class ChatController implements Initializable {
                 net.writeBytes(buf, 0, read);
             }
         }
+        input.clear();
     }
 
     private void addStatus(String message) {
